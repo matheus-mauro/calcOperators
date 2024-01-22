@@ -13,8 +13,9 @@ dict_operadores = {
 while continua:
 
     valor1 = int(input('Digite o primeiro valor: '))
-    valor2 = int(input('Digite o segundo valor: '))
     operacao = (input('Digite a operação: '))
+    valor2 = int(input('Digite o segundo valor: '))
+
 
     resultado = dict_operadores[operacao](valor1,valor2)
 
